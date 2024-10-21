@@ -1,0 +1,28 @@
+.item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  gap: 5px;
+  padding: 10px;
+  margin-bottom: 20px;
+  box-shadow: 2px 2px 4px 4px rgb(62, 88, 97);
+  border-radius: 6px;
+  & button {
+    width: 70px;
+    border: none;
+    border-radius: 6px;
+    box-shadow: 2px 2px 4px 4px rgb(62, 88, 97);
+    cursor: pointer;
+    padding: 10px 10px;
+    font-weight: bold;
+    background-color: rgb(193, 212, 218);
+    &:hover {
+      background-color: rgb(170, 187, 192);
+    }
+  }
+}
+.text {
+  font-weight: bold;
+}
